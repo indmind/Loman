@@ -16,6 +16,10 @@ h1 {
   letter-spacing: 1px;
 }
 
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
 .header-overlay {
   position: absolute;
   top: 0;
