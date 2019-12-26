@@ -78,6 +78,13 @@ h1 {
   margin: 2.5em;
 }
 
+@media screen and (max-width: 767px) {
+  .img-advantage {
+    margin: 1em;
+  }
+}
+
+
 #carousel-pendana > div > div {
   width: 90%;
   margin: auto;
