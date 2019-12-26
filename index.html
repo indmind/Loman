@@ -52,11 +52,11 @@
         </div>
       </nav>
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <div id="header-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#header-carousel" data-slide-to="1"></li>
+          <li data-target="#header-carousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -69,16 +69,16 @@
             <img src="images/pembatik-fix.jpg" />
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#header-carousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#header-carousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
 
-        <div class=" header-overlay text-white">
+        <div class="header-overlay text-white">
           <div>
             <h1>Loman</h1>
             <p>Berbagi kebaikan, membangun masa depan.</p>
@@ -88,7 +88,7 @@
     </header>
 
     <main class="container mt-4 my-sm-5">
-      <h2>Apa itu Loman?</h2>
+      <h2 class="text-center my-4">Apa itu Loman?</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut vel in, omnis dolor cum dolore quo voluptatem
         dicta numquam beatae consequatur voluptatibus necessitatibus maxime enim temporibus ea architecto sed laboriosam
@@ -117,12 +117,14 @@
         </div>
       </div>
 
-      <div class="row mt-5">
+      <h2 class="my-5 text-center">Cerita Peminjam</h2>
+
+      <div class="row">
         <div class="col-sm-5">
           <img src="images/pedagang-fix.jpg" class="w-100 shadow-lg rounded-lg" />
         </div>
         <div class="col-sm-7 mt-3 mt-sm-0">
-          <h2>Kisah Ibu Sumiarti</h2>
+          <h3>Kisah Ibu Sumiarti</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate magnam perspiciatis harum minus sequi
             quibusdam quis, saepe eaque vel velit sed assumenda temporibus, totam earum impedit aut architecto laborum
@@ -133,7 +135,7 @@
 
       <div class="row mt-3 mt-sm-5">
         <div class="col-sm-7 mt-3 mt-sm-0">
-          <h2>Kisah Bapak Dirmoyo</h2>
+          <h3>Kisah Bapak Dirmoyo</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate magnam perspiciatis harum minus sequi
             quibusdam quis, saepe eaque vel velit sed assumenda temporibus, totam earum impedit aut architecto laborum
@@ -150,7 +152,8 @@
         <div class="col-sm text-center">
           <img src="images/icons/love.svg" class="img-advantage" alt="" />
           <p class="h3">Dampak Sosial</p>
-          Kami bertekad untuk menciptakan kesejahteraan merata di Indonesia. Dana Anda akan disalurkan kepada pengusaha kecil dan mikro di pelosok pedesaan.
+          Kami bertekad untuk menciptakan kesejahteraan merata di Indonesia. Dana Anda akan disalurkan kepada pengusaha
+          kecil dan mikro di pelosok pedesaan.
         </div>
         <div class="col-sm text-center my-5 my-sm-0">
           <img src="images/icons/security.svg" class="img-advantage" alt="" />
@@ -162,6 +165,56 @@
           <img src="images/icons/profits.svg" class="img-advantage" alt="" />
           <p class="h3">Keuntungan Menarik</p>
           Dapatkan keuntungan hingga 15% per tahun & cashflow mingguan, pembayaran angsuran dapat diambil kapanpun.
+        </div>
+      </div>
+
+      <div id="carousel-pendana">
+        <h2 class="my-5 text-center">Kata Pendana</h2>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner shadow-lg">
+            <div class="carousel-item active">
+              <div class="darken-overlay"></div>
+              <img src="images/pendana/daniel.jpg" class="d-block" />
+              <div class="carousel-caption">
+                <h5>Daniel Dan</h5>
+                <p>
+                 Loman, lo mana ada cuan...
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="darken-overlay"></div>
+              <img src="images/pendana/diandra.jpg" class="d-block" />
+              <div class="carousel-caption">
+                <h5>Diandra Aeroplane</h5>
+                <p>
+                  Hasil investasi di Loman, membantu saya membuat pesawat terbang.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="darken-overlay"></div>
+              <img src="images/pendana/jack.jpg" class="d-block" />
+              <div class="carousel-caption">
+                <h5>Jack Break</h5>
+                <p>UMKM, ujung tombak ekonomi bangsa.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </main>
