@@ -1,0 +1,68 @@
+body {
+  background: url(../images/bg_masuk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #575252;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5em;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  height: 90vh;
+  margin: 5vh 40px;
+}
+
+.card-image-side {
+  background-image: url(../images/img_masuk.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+
+/* custom inputs */
+.grey-input {
+  background-color: #dbdbdb;
+  border-radius: 5px;
+  padding: 20px 10px;
+  border: none;
+  width: 100%;
+  margin: 12px auto;
+  font-weight: bold;
+}
+
+.grey-button {
+  background-color: #505050;
+  color: white;
+  border-radius: 5px;
+  padding: 18px 10px;
+  border: none;
+  width: 100%;
+  margin: 12px auto;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-image-side {
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grey-input {
+    width: 90%;
+
+    margin: 5px auto;
+  }
+
+  .grey-button {
+      width: 90%;
+    margin: 5px auto;
+  }
+}
