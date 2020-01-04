@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-
 * {
   font-family: "Raleway", sans-serif;
 }
@@ -8,7 +7,6 @@ h1 {
   font-weight: bold;
   /* font-size: 3.5em !important; */
 }
-
 
 .navbar-brand {
   /* position: absolute; */
@@ -54,18 +52,40 @@ h1 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-#header-carousel .carousel-control-next,
-#header-carousel .carousel-control-prev {
+#funder-carousel .carousel-control-next, #funder-carousel .carousel-control-prev {
   width: 8% !important;
   z-index: 2 !important;
 }
 
-.carousel-item > img {
-  height: 100vh;
+#funder-carousel .carousel-caption {
+  color: white;
+}
+
+#funder-carousel .carousel-caption h3 {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.carousel-item>img {
+  height: 50vh;
   width: 100vw;
   min-height: 350px;
   object-fit: cover;
-  object-position: center; /* Center the image within the element */
+  object-position: center;
+  /* Center the image within the element */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item.full>img {
+  height: 95vh;
+  width: 100vw;
+  min-height: 350px;
+  object-fit: cover;
+  object-position: center;
+  /* Center the image within the element */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -85,6 +105,7 @@ h1 {
 }
 
 /* custom inputs */
+
 .transparent-input {
   border-radius: 99999px;
   border: solid 1px rgba(255, 255, 255, 0.5);
@@ -92,6 +113,37 @@ h1 {
   color: rgba(255, 255, 255, 0.5);
   padding: 4px 10px;
 }
+
+.transparent-button {
+  border-radius: 99999px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 8px 10px;
+}
+
+.transparent-button:hover {
+  color: rgb(36, 36, 36);
+  background-color: white;
+}
+
+
+.normal-button {
+  border-radius: 99999px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 9px 12px;
+  transition: 300ms ease-in-out;
+}
+
+.normal-button:hover {
+  transform: scale(1.1);
+  color: white;
+
+}
+
+
+
 /* end */
 
 .search-button {
@@ -100,7 +152,7 @@ h1 {
 }
 
 .img-advantage {
-  width: 35%;
+  width: 30%;
   margin: 2.5em;
 }
 
@@ -110,29 +162,13 @@ h1 {
   }
 }
 
-
-#carousel-pendana > div > div {
-  width: 90%;
-  margin: auto;
-  border-radius: 10px;
-  justify-content: center;
-}
-
-.darken-overlay {
-  position: absolute;
-  width: 100%;
-  height: 500px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#carousel-pendana > div > div div > img {
-  /* border-radius: 10px; */
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  object-position: center; /* Center the image within the element */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.step-title span {
+  /* font-weight: bold; */
+  color: white;
+  background: #212529;
+  border-radius: 50%;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding-top: 1.5px;
 }
