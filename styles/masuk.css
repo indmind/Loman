@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #575252;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -13,8 +14,7 @@ h1 {
 .card-container {
   background-color: white;
   border-radius: 10px;
-  height: 90vh;
-  margin: 5vh 40px;
+  height: 100vh;
 }
 
 .card-image-side {
